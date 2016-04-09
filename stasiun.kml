@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>stasiun</name>
+		<Placemark>
+			<name>Stasiun Kiaracondong</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/o29w6drfM3pYaBP8im4Rglr1jqXAyMpRR-AWNuCzDRHKQlwFbICKFW-37JDUunhH36ueJOgM79Ga78H8zAEaOVJIkN1syPqYfoAI1bb1XWfAh-uamH09VtFYr9_YzxYCUVnlaHs2uiw5SaLDf5w" height="200" width="auto" /><br><br>Stasiun Kiaracondong]]></description>
+			<styleUrl>#icon-1459</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/o29w6drfM3pYaBP8im4Rglr1jqXAyMpRR-AWNuCzDRHKQlwFbICKFW-37JDUunhH36ueJOgM79Ga78H8zAEaOVJIkN1syPqYfoAI1bb1XWfAh-uamH09VtFYr9_YzxYCUVnlaHs2uiw5SaLDf5w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>107.6464033,-6.9250636,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Cikudapateuh</name>
+			<description><![CDATA[Stasiun Cikudapateuh]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.6258469,-6.9188862,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Bandung
+</name>
+			<description><![CDATA[Stasiun Bandung]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.6022863,-6.914476800000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Ciroyom
+</name>
+			<description><![CDATA[Stasiun Ciroyom]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.5902271,-6.9140508,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Cimindi
+</name>
+			<description><![CDATA[Stasiun Cimindi]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.5610662,-6.8962423,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Cimekar
+</name>
+			<description><![CDATA[Stasiun Cimekar]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.7144885,-6.9496657,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Rancaekek
+</name>
+			<description><![CDATA[Stasiun Rancaekek]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.75579450000001,-6.9649802,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Haurpugur
+</name>
+			<description><![CDATA[Stasiun Haurpugur]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.7998686,-6.9806988,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Cicalengka
+</name>
+			<description><![CDATA[Stasiun Cicalengka]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.8326344,-6.9814869,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stasiun Nagreg
+</name>
+			<description><![CDATA[Stasiun Nagreg]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>107.8873301,-7.0187153,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-1459-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1459-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1459'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1459-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1459-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
