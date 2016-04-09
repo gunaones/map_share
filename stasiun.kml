@@ -1,169 +1,163 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<kml xmlns='http://www.opengis.net/kml/2.2'>
-	<Document>
-		<name>stasiun</name>
-		<Placemark>
-			<name>Stasiun Kiaracondong</name>
-			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/o29w6drfM3pYaBP8im4Rglr1jqXAyMpRR-AWNuCzDRHKQlwFbICKFW-37JDUunhH36ueJOgM79Ga78H8zAEaOVJIkN1syPqYfoAI1bb1XWfAh-uamH09VtFYr9_YzxYCUVnlaHs2uiw5SaLDf5w" height="200" width="auto" /><br><br>Stasiun Kiaracondong]]></description>
-			<styleUrl>#icon-1459</styleUrl>
-			<ExtendedData>
-				<Data name='gx_media_links'>
-					<value>https://lh4.googleusercontent.com/proxy/o29w6drfM3pYaBP8im4Rglr1jqXAyMpRR-AWNuCzDRHKQlwFbICKFW-37JDUunhH36ueJOgM79Ga78H8zAEaOVJIkN1syPqYfoAI1bb1XWfAh-uamH09VtFYr9_YzxYCUVnlaHs2uiw5SaLDf5w</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>107.6464033,-6.9250636,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Cikudapateuh</name>
-			<description><![CDATA[Stasiun Cikudapateuh]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.6258469,-6.9188862,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Bandung
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="stasiun" id="stasiun">
+	<SimpleField name="OGC_FID" type="string"></SimpleField>
+	<SimpleField name="GEOMETRY" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudemode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="string"></SimpleField>
+	<SimpleField name="extrude" type="string"></SimpleField>
+	<SimpleField name="visibility" type="string"></SimpleField>
+	<SimpleField name="draworder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="gx_media_links" type="string"></SimpleField>
+</Schema>
+<Folder><name>stasiun</name>
+  <Placemark>
+	<name>Stasiun Kiaracondong</name>
+	<description>&lt;img src=&quot;https://lh4.googleusercontent.com/proxy/o29w6drfM3pYaBP8im4Rglr1jqXAyMpRR-AWNuCzDRHKQlwFbICKFW-37JDUunhH36ueJOgM79Ga78H8zAEaOVJIkN1syPqYfoAI1bb1XWfAh-uamH09VtFYr9_YzxYCUVnlaHs2uiw5SaLDf5w&quot; height=&quot;200&quot; width=&quot;auto&quot; /&gt;&lt;br&gt;&lt;br&gt;Stasiun Kiaracondong</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">1</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="gx_media_links">https://lh4.googleusercontent.com/proxy/o29w6drfM3pYaBP8im4Rglr1jqXAyMpRR-AWNuCzDRHKQlwFbICKFW-37JDUunhH36ueJOgM79Ga78H8zAEaOVJIkN1syPqYfoAI1bb1XWfAh-uamH09VtFYr9_YzxYCUVnlaHs2uiw5SaLDf5w</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.6464033,-6.9250636,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Cikudapateuh</name>
+	<description>Stasiun Cikudapateuh</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">2</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.6258469,-6.9188862,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Bandung
 </name>
-			<description><![CDATA[Stasiun Bandung]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.6022863,-6.914476800000001,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Ciroyom
+	<description>Stasiun Bandung</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">3</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.6022863,-6.9144768,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Ciroyom
 </name>
-			<description><![CDATA[Stasiun Ciroyom]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.5902271,-6.9140508,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Cimindi
+	<description>Stasiun Ciroyom</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">4</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.5902271,-6.9140508,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Cimindi
 </name>
-			<description><![CDATA[Stasiun Cimindi]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.5610662,-6.8962423,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Cimekar
+	<description>Stasiun Cimindi</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">5</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.5610662,-6.8962423,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Cimekar
 </name>
-			<description><![CDATA[Stasiun Cimekar]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.7144885,-6.9496657,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Rancaekek
+	<description>Stasiun Cimekar</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">6</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.7144885,-6.9496657,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Rancaekek
 </name>
-			<description><![CDATA[Stasiun Rancaekek]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.75579450000001,-6.9649802,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Haurpugur
+	<description>Stasiun Rancaekek</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">7</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.7557945,-6.9649802,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Haurpugur
 </name>
-			<description><![CDATA[Stasiun Haurpugur]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.7998686,-6.9806988,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Cicalengka
+	<description>Stasiun Haurpugur</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">8</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.7998686,-6.9806988,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Cicalengka
 </name>
-			<description><![CDATA[Stasiun Cicalengka]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.8326344,-6.9814869,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stasiun Nagreg
+	<description>Stasiun Cicalengka</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">9</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.8326344,-6.9814869,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Nagreg
 </name>
-			<description><![CDATA[Stasiun Nagreg]]></description>
-			<styleUrl>#icon-503-DB4436</styleUrl>
-			<Point>
-				<coordinates>107.8873301,-7.0187153,0.0</coordinates>
-			</Point>
-		</Placemark>
-		<Style id='icon-1459-normal'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-		</Style>
-		<Style id='icon-1459-highlight'>
-			<IconStyle>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
-				</Icon>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
-		</Style>
-		<StyleMap id='icon-1459'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#icon-1459-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#icon-1459-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='icon-503-DB4436-normal'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-		</Style>
-		<Style id='icon-503-DB4436-highlight'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
-		</Style>
-		<StyleMap id='icon-503-DB4436'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#icon-503-DB4436-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-	</Document>
-</kml>
+	<description>Stasiun Nagreg</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">10</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">-1</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.8873301,-7.0187153,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Cimahi</name>
+	<description>Stasiun Cimahi</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.536035360211187,-6.885790159029717,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Gadobangkong</name>
+	<description>Stasiun Gadobangkong</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.515285146543832,-6.864782225497035,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stasiun Padalarang</name>
+	<description>Stasiun Padalarang</description>
+	<ExtendedData><SchemaData schemaUrl="#stasiun">
+		<SimpleData name="OGC_FID">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><altitudeMode>relativeToGround</altitudeMode><coordinates>107.497404098223043,-6.842705092705959,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
